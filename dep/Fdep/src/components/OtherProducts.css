@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ot{
+    background-color: white;
+    width: auto;
+  padding: 20px;
+  border-radius: 10px
+}
+
+.JFY{
+    margin-left: 120px;
+    margin-top:50px;
+    color: rgb(143, 141, 141);
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+
+} 
+.card{
+    height: auto;
+    width: 250px; 
+   
+} 
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.loadmore{
+
+    height: 50px;
+    width: 400px;
+    color: orangered;
+    border: 2px solid orangered;
+}
+.loadmore:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+ @media screen and (max-width: 1024px) {
+   
+    .JFY{
+        margin-left: 100px;
+        margin-top:50px;
+        color: rgb(143, 141, 141);
+    }
+    .ot{
+        background-color: white;
+        width: 800px;
+    }
+    .cards{
+        display: flex; 
+         flex-wrap: wrap;
+         justify-content: center;
+         gap: 5px;         
+    }
+    .card{
+
+     height:auto;     
+  width: 20rem;                 
+    }
+    .card:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    .loadmore{
+    
+        height: 50px;
+        width: 200px;
+        color: orangered;
+        border: 2px solid orangered;
+    }
+    .loadmore:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+
+}
+
+@media screen and (max-width: 992px) {
+    
+    .JFY{
+        margin-left: 40px;
+        margin-top:50px;
+        color: rgb(143, 141, 141);
+    }
+    .ot{
+        background-color: white;
+        width: 800px;
+    }
+    .cards{
+        display: flex; 
+         flex-wrap: wrap;
+         justify-content: center;
+         gap: 20px;         
+    }
+    .card{
+
+       height:auto; 
+       width: 18rem;         
+       margin-left:5px;              
+    }
+    .card:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    .loadmore{
+    
+        height: 50px;
+        width: 200px;
+        color: orangered;
+        border: 2px solid orangered;
+    }
+    .loadmore:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .JFY{
+        margin-left: 120px;
+        margin-top:50px;
+        color: rgb(143, 141, 141);
+    }
+    .cards{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;         
+    }
+    .ot{
+        background-color: white;
+        width: auto;
+    }
+    .card{
+
+        height: auto;             
+        width:12rem;
+    }
+    .card:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    .loadmore{
+    
+        height: 50px;
+        width: 200px;
+        color: orangered;
+        border: 2px solid orangered;
+    }
+    .loadmore:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .JFY{
+        margin-left: 30px;
+        margin-top:50px;
+        color: rgb(143, 141, 141);
+    }
+    .cards{
+            display: flex;
+            gap: 20px;
+            margin-left: 5px;
+    }
+    .ot{
+        background-color: white;
+        width: auto;
+    }
+    .card{
+
+        height: auto;
+        width: 9rem; 
+        
+    }
+ 
+    .card:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    .loadmore{
+    
+        height: 50px;
+        width: 200px;
+        color: orangered;
+        border: 2px solid orangered;
+    }
+    .loadmore:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 390px) {   
+    
+    
+    .JFY{
+        margin-left: 20px;
+        margin-top:50px;
+        color: rgb(143, 141, 141);
+    }
+    .cards{
+            display: flex;
+            gap: 20px;
+            margin-left: 5px;
+    }
+    .ot{
+        background-color: white;
+        width: auto;
+    }
+    .card{
+
+        height: auto;
+        width: 15rem!important; 
+    }
+ 
+    .card:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    .loadmore{
+    
+        height: 50px;
+        width: 200px;
+        color: orangered;
+        border: 2px solid orangered;
+    }
+    .loadmore:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    } }
+
+
+    @media screen and (max-width: 375px) {
+        .JFY{
+            margin-left: 10px;
+            margin-top:50px;
+            color: rgb(143, 141, 141);
+        }
+        .cards{
+                display: flex;
+                gap: 20px;
+                margin-left: 5px;
+        }
+        .ot{
+            background-color: white;
+            width: auto;
+        }
+         .card{
+    
+            height: auto;
+            width: 15rem!important; 
+           
+        } 
+     
+        .card:hover{
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+        .loadmore{
+        
+            height: 50px;
+            width: 200px;
+            color: orangered;
+            border: 2px solid orangered;
+        }
+        .loadmore:hover{
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+      } 

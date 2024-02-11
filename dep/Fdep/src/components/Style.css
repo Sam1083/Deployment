@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  Counter Css */
+.buttonAdd{
+    height: 40px;
+    width: 40px;
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+}
+.buttonSub{
+    height: 40px;
+    width: 40px;
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+}
+/* Counter Css End */
+
+/* Login & SignUp Starts */
+
+.loginbtn{
+
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: yellow;
+}
+.signupbtn{
+
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: yellow;
+}
+
+/* Login & SignUp Ends */
+
+/* Contact CSS Starts */
+.Contacttext{
+    color: orangered;
+    font-size: large;
+}
+.hover{
+    text-decoration: none;
+}
+.hover:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* Contact CSS Ends */
+
+/* Footer CSS Starts */
+.headings{
+    font-weight:bolder ;
+    color: rgb(117, 117, 117);
+}
+.heading1{
+
+    font-weight:bolder ;
+    padding-bottom: 40px;
+    color: rgb(117, 117, 117);
+
+}
+/* Footer CSS End */
+
+.align{
+
+    color: white;  
+    margin-top: -10px; 
+}
+
+.counter{
+margin-left: 400px;
+margin-top: -500px;
+
+}
+.buttonAdd:hover{
+    transform: scale(1.05);
+    cursor:pointer;
+}
+.buttonSub:hover{
+    transform: scale(1.05);
+    cursor:pointer;
+}
+.clear-btn:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}

@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.h1{
+    margin-left: 160px;
+    margin-top:50px;
+    color: rgb(143, 141, 141);
+}
+.ok{
+    display: flex;  
+    flex-direction: row;  
+    flex-wrap: wrap;
+    gap: 2px;
+    justify-content: center;
+}
+.box1{
+    background-color: white;
+    height: 200px;
+    width: 13rem;
+    padding-top: 30px;
+    border: 1px solid rgb(219, 214, 214);    
+    display: flex;
+    justify-content: center;
+}
+
+.Categorycards{
+    height: 50px;
+    width:5rem;  
+}
+.ctext{
+    margin-left: 10px;
+    }
+.box1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .h1 {
+        margin-left: 40px;
+    }
+    .box1{
+        background-color: white;
+        height:auto;
+        width: 18rem;
+        padding-top: 30px;
+        border: 1px solid rgb(219, 214, 214);    
+        display: flex;
+        gap: 20px;
+    }
+    
+    .Categorycards{
+        height: auto;
+        width:12rem;  
+    }
+    .ctext{
+        margin-left: 30px;
+        }
+    .box1:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 992px){
+    .h1 {
+        margin-left: 100px;
+    }
+    .box1{
+        background-color: white;
+        height:auto;
+        width: 12rem;
+        padding-top: 30px;
+        border: 1px solid rgb(219, 214, 214);    
+      
+    }
+    .ok{
+        display: flex;  
+        flex-direction: row;  
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .Categorycards{
+        height: auto;
+        width:6rem;  
+    }
+    .ctext{
+        margin-left: 2x;
+        font-size: xx-small;
+        }
+    .box1:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 767px) {
+    .h1 {
+        margin-left: 180px;
+    }
+    .ok{
+        display: flex;  
+        flex-direction: row;  
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .box1{
+        background-color: white;
+        height:auto;
+        width: 8rem;
+        padding-top: 30px;
+        border: 1px solid rgb(219, 214, 214);
+      
+    }
+    
+    .Categorycards{
+        height: auto;
+        width:6rem;  
+    }
+    .ctext{
+        margin-left: 11px;
+        }
+       
+
+    .box1:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .h1 {
+        margin-left: 90px;
+    }
+    .ok{
+        display: flex;  
+        flex-direction: row;  
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+    .box1{
+        background-color: white;
+        height:auto;
+        width: 8rem;
+        padding-top: 30px;
+        border: 1px solid rgb(219, 214, 214);
+      
+    }
+    
+    .Categorycards{
+        height: auto;
+        width:3rem;  
+    }
+    .ctext{
+         margin-left: 3px;        
+        font-size: x-small;
+       
+        
+        }
+    .box1:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 375px) {
+  
+    .h1 {
+        margin-left: 70px;
+    }
+    .ok{
+        display: flex;  
+        flex-direction: row;  
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+    }
+    .box1{
+        background-color: white;
+        height:auto;
+        width: 7rem;
+        padding-top: 30px;
+        border: 1px solid rgb(219, 214, 214);
+      
+    }
+    
+    .Categorycards{
+        height: auto;
+        width:2rem;  
+    }
+    .ctext{
+         margin-left: 3px;        
+        font-size: x-small;
+       
+        
+        }
+    .box1:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 390px) {.h1 {
+    margin-left: 70px;
+}
+.ok{
+    display: flex;  
+    flex-direction: row;  
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+.box1{
+    background-color: white;
+    height:auto;
+    width: 7rem;
+    padding-top: 30px;
+    border: 1px solid rgb(219, 214, 214);
+  
+}
+
+.Categorycards{
+    height: auto;
+    width:2rem;  
+}
+.ctext{
+     margin-left: 3px;        
+    font-size: x-small;
+   
+    
+    }
+.box1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}}

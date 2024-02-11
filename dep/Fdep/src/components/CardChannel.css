@@ -1,0 +1,177 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+
+.infocards {
+    background-color: white;
+    height: 150px;
+    width: auto;
+    border-radius: 15px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .ptext {
+    font-size: 13px;
+  }
+  
+  .ptext:hover {
+    color: orangered;
+  }
+  
+  .ptext1 {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  @media screen and (max-width:1024px) {
+    .infocards{
+      background-color: white;
+      height: 150px;
+      width: auto;
+      border-radius: 15px;
+      margin-top: 35px;
+      margin-bottom: 10px;
+  }
+  
+  .ptext{
+        font-size: 13px; 
+  }
+  .ptext:hover{
+      color: orangered;
+  }
+  .ptext1{
+  font-size: 13px; 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }        
+  }    
+
+  @media screen and (min-width:992px) {
+    .infocards{
+      background-color: white;
+      height: 150px;
+      width: auto;
+      border-radius: 15px;
+      margin-top: 35px;
+      margin-bottom: 10px;
+  }
+  .ptext{
+        font-size: 13px; 
+  }
+  .ptext:hover{
+      color: orangered;
+  }
+  .ptext1{
+  font-size: 13px; 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }        
+  }  
+
+
+  
+  @media screen and (max-width:767px) {
+  
+    .infocards{
+      background-color: white;
+      height: 300px;
+      width: auto;
+      border-radius: 15px;
+      margin-top: 35px;
+      margin-bottom: 10px;
+  }
+ 
+  .ptext{
+        font-size: 13px; 
+  }
+  .ptext:hover{
+      color: orangered;
+  }
+  .ptext1{
+  font-size: 13px; 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+  }
+  
+  @media screen and (max-width:430px) {      
+  .infocards{
+      background-color: white;
+      height: auto;
+      width: auto;
+      border-radius: 15px;
+      margin-top: 35px;
+      margin-bottom: 10px;
+  }
+
+   
+  .ptext{
+        font-size: 13px; 
+  }
+  .ptext:hover{
+      color: orangered;
+  }
+  .ptext1{
+  font-size: 13px; 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+  }
+  @media screen and (max-width:375px) {
+  .infocards{
+        background-color: white;
+        height: 450px;
+        width: auto;
+        border-radius: 15px;
+        margin-top: 35px;
+        margin-bottom: 10px;
+    }
+
+    .ptext{
+          font-size: 13px; 
+    }
+    .ptext:hover{
+        color: orangered;
+    }
+    .ptext1{
+    font-size: 13px; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-left: 8px black;
+    }
+  }
+@media screen and (max-width: 390px) {.infocards{
+  background-color: white;
+  height: 450px;
+  width: auto;
+  border-radius: 15px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.ptext{
+    font-size: 13px; 
+}
+.ptext:hover{
+  color: orangered;
+}
+.ptext1{
+font-size: 13px; 
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+border-left: 8px black;
+}}
+  
